@@ -370,6 +370,44 @@ font-weight: 800;
     background-image: url(../Images/Group\ 40.png);
 }
 
+.extended-button{
+    width: 250px;
+    margin-bottom: 100px;
+}
+
+/* place-to-get-lost styles section */
+
+.place-to-get-lost-text ,p{
+    text-align: left;
+    max-width: 530px;
+    margin-bottom: 25px;
+}
+
+.place-to-get-lost-text li{
+    color: #131318;
+}
+
+.place-to-get-lost-text button {
+    margin-top: 30px;
+}
+
+.place-to-get-lost .video{
+    width:"610px"; 
+    height:"420px";
+    border: 10px solid black;
+    border-radius: 16px;
+    margin-bottom: -10px;
+    background-color: black;
+}
+
+.place-to-get-lost{
+    display: flex;
+    gap: 28px;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 
 /* Responsive styles */
