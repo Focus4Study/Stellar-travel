@@ -231,6 +231,66 @@ p {
 }
 
 
+/* why choose us section */
+
+.why-choose-us-description {
+    text-align: center;
+    margin-top: 76px;
+    margin-bottom: 50px;
+
+}
+
+.cards-container {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card h4 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+}
+
+.card img {
+    max-width: 64px;
+    max-height: 64px;
+}
+
+.card p {
+    color: #5A5A5D;
+    max-width: 485px;
+    text-align: left;
+}
+
+.pink {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.sky-blue {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.paste {
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.card {
+    padding: 30px 70px 30px 30px;
+    border-radius: 16px;
+    max-width: 570px;
+    max-height: 285px;
+    margin: 24px auto;
+
+}
+
 
 
 /* Responsive styles */
@@ -291,15 +351,18 @@ p {
 
     /* popular-tours responsive  */
 
-    .popular-tours {
+    .popular-tours,
+    .cards-container {
         flex-direction: column;
     }
 
-    .text-description>h2 {
+    .title-styled,
+    .card h4 {
         font-size: 1.25rem;
     }
 
-    .text-description>p {
+    .primary-text,
+    .card p {
         font-size: 0.875rem;
     }
 
@@ -324,7 +387,8 @@ p {
     }
 
     .choose-your-destination h2,
-    p {
+    p,
+    .card p {
         max-width: 300px;
     }
 
@@ -342,7 +406,28 @@ p {
         margin: 0px;
         font-size: 20px;
         font-weight: 700;
-        margin-bottom: 16px; 
+        margin-bottom: 16px;
+    }
+
+    /* why choose us section responsive */
+
+    .card {
+        max-width: 330px;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .paste {
+        width: 300px;
+        height: 245px;
+        margin: 15px auto;
+    }
+
+    .card p {}
+
+    .card img {
+        max-width: 48px;
+        max-height: 48px;
     }
 
 
