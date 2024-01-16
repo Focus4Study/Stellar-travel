@@ -291,6 +291,84 @@ p {
 
 }
 
+/* deals and offers styles section*/
+
+.deals-discounts {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.deals-discounts > h2{
+    color: #131318;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+
+.deal {
+    border: 2px solid white;
+    max-width: 1170px;
+    max-height: 500px;
+    margin-bottom: 50px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.deal-text p {
+    text-align: left;
+}
+
+
+.deal-text{
+    max-width: 500px;
+    max-height: 390px;
+    background: rgba(255, 255, 255, 0.80);
+    border: 2px solid #FFF;
+    padding: 50px;
+    margin: 75px 60px 75px 550px;
+    border-radius: 16px;
+    backdrop-filter: blur(2.5px);
+    
+}
+
+.deal-nav {
+    display: flex;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+
+.deal-nav img{
+    margin-right: 8px;
+    margin-bottom: -3px;
+}
+
+.deal .dark {
+    color: #131318;
+}
+
+.deal .orange {
+    color: #FF5400;
+    margin-bottom: 20px;
+}
+
+.deal-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.first-container , .third-container{
+    background-image: url("../Images/Group\ 39.png");
+}
+.second-container{
+    background-image: url(../Images/Group\ 40.png);
+}
+
 
 
 /* Responsive styles */
