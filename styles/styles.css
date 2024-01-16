@@ -302,11 +302,11 @@ p {
 
 }
 
-.deals-discounts > h2{
+.deal-title {
     color: #131318;
-text-align: center;
-font-size: 40px;
-font-weight: 800;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 800;
 }
 
 .deal {
@@ -316,7 +316,7 @@ font-weight: 800;
     margin-bottom: 50px;
     background-repeat: no-repeat;
     background-size: 100%;
-    
+
 }
 
 .deal-text p {
@@ -324,7 +324,7 @@ font-weight: 800;
 }
 
 
-.deal-text{
+.deal-text {
     max-width: 500px;
     max-height: 390px;
     background: rgba(255, 255, 255, 0.80);
@@ -333,7 +333,7 @@ font-weight: 800;
     margin: 75px 60px 75px 550px;
     border-radius: 16px;
     backdrop-filter: blur(2.5px);
-    
+
 }
 
 .deal-nav {
@@ -342,7 +342,7 @@ font-weight: 800;
     margin-bottom: 10px;
 }
 
-.deal-nav img{
+.deal-nav img {
     margin-right: 8px;
     margin-bottom: -3px;
 }
@@ -363,27 +363,30 @@ font-weight: 800;
     margin-top: 10px;
 }
 
-.first-container , .third-container{
+.first-container,
+.third-container {
     background-image: url("../Images/Group\ 39.png");
 }
-.second-container{
+
+.second-container {
     background-image: url(../Images/Group\ 40.png);
 }
 
-.extended-button{
+.extended-button {
     width: 250px;
     margin-bottom: 100px;
 }
 
 /* place-to-get-lost styles section */
 
-.place-to-get-lost-text ,p{
+.place-to-get-lost-text,
+p {
     text-align: left;
     max-width: 530px;
     margin-bottom: 25px;
 }
 
-.place-to-get-lost-text li{
+.place-to-get-lost-text li {
     color: #131318;
 }
 
@@ -391,24 +394,147 @@ font-weight: 800;
     margin-top: 30px;
 }
 
-.place-to-get-lost .video{
-    width:"610px"; 
-    height:"420px";
+.place-to-get-lost .video {
+    width: "610px";
+    height: "420px";
     border: 10px solid black;
     border-radius: 16px;
     margin-bottom: -10px;
     background-color: black;
+    margin-bottom: 100px;
 }
 
-.place-to-get-lost{
+.place-to-get-lost {
     display: flex;
     gap: 28px;
     justify-content: center;
     align-items: center;
 }
 
+/* newsletter-section styles */
+
+.newsletter-section {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    max-width: 470px;
+    max-height: 420px;
+    position: relative;
+}
+
+.newsletter input {
+    width: 360px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin: 8px 40px 16px 40px;
+    padding-left: 30px;
+}
+
+.newsletter p {
+    text-align: left;
+    max-width: 350px;
+    margin-bottom: 40px;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.newsletter h4 {
+    margin-left: 40px;
+    margin-top: 40px;
+    text-align: left;
 
 
+}
+
+.newsletter button {
+    width: 393px;
+    height: 52px;
+    margin: 8px 40px 40px;
+}
+
+.discount-logo {
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background-color: #FF5400;
+    text-align: center;
+    color: #FFF;
+    position: relative;
+    bottom: 205px;
+    left: 300px;
+
+
+}
+
+.discount-logo h4 {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: -25px;
+    padding-top: 20px;
+
+}
+
+.discount-logo h2 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.img-1 {
+    margin-top: 150px;
+}
+
+
+/* footers styles */
+
+footer{
+    background-color: rgba(19, 19, 24, 0.05);
+}
+
+.footer-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 2rem;
+}
+
+footer p {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.footer-title .logo {
+    width: 4%;
+    height: 20%;
+}
+
+.socials {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    background: rgba(19, 19, 24, 0.10);
+    width: 872px;
+    height: 1px;
+}
+
+#copyright{
+    margin: 50px auto;
+    padding-bottom: 100px;
+    
+}
 
 /* Responsive styles */
 /* Responsive styles */
@@ -497,7 +623,8 @@ font-weight: 800;
 
     /* choose your destination section responsive */
 
-    .title-styled ,.choose-your-destination h2 {
+    .title-styled,
+    .choose-your-destination h2 {
         color: #131318;
         text-align: center;
         font-size: 1.25rem;
@@ -512,8 +639,14 @@ font-weight: 800;
     .row-1,
     .row-2,
     .row-3 {
-        flex-direction: column;
         gap: 0px;
+    }
+
+    .row-1,
+    .row-2,
+    .row-3,
+    .place-to-get-lost {
+        flex-direction: column;
     }
 
     .box {
@@ -547,33 +680,96 @@ font-weight: 800;
 
     /* deals and offers styles section RESPONSIVE*/
 
-    .deal{
+    .deal {
         background-position: center;
         background-size: cover;
         border-radius: 8px;
-        
+
     }
 
-    .deals-discounts h2{
+    .deals-discounts h2 {
         text-align: center;
     }
-    .deals-discounts h2 , .deal-title {
+
+    .deals-discounts h2,
+    .deal-title {
         color: #131318;
         font-size: 1.25rem;
     }
 
-    .deal-nav{
+    .deal-nav {
         flex-direction: column;
     }
-    .deal-nav p{
+
+    .deal-nav p {
         margin: 5px auto;
         padding-top: 10px;
     }
 
 
-    .deal-text{
+    .deal-text {
         margin: 120px 16px 66px 16px;
-        padding: 20px 10px;    
+        padding: 20px 10px;
+    }
+
+    /* place-to-get-lost styles section  responsive*/
+
+    .place-to-get-lost button {
+        margin-left: 30px;
+    }
+
+    .place-to-get-lost .video,
+    iframe {
+        width: 335px;
+        height: 200px;
+    }
+
+    /* Newsletter section responsive */
+    .newsletter-section {
+        flex-direction: column;
+    }
+
+    .newsletter {
+        width: 335px;
+        height: 390px;
+    }
+
+    .newsletter p,
+    h4 {
+        max-width: 275px;
+        margin-left: 20px;
+    }
+
+    .newsletter input {
+        width: 275px;
+        height: 52px;
+        margin: 10px;
+    }
+
+    .newsletter button {
+        width: 275px;
+        height: 52px;
+        margin: 10px 30px;
+    }
+
+    .discount-logo {
+        width: 214.023px;
+        height: 79.268px;
+        bottom: 10px;
+    }
+
+    .discount-logo h4 {
+        font-size: 0.9rem;
+    }
+
+    .discount-logo h2 {
+        font-size: 1.3rem;
+        font-weight: 800;
+    }
+
+    .img-1 {
+        max-width: 335px;
+        max-height: 300px;
     }
 
 }
