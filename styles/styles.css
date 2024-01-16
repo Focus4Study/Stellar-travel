@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+
+/* Shared styles */
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+/* Header styles */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 30px 130px;
+
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 44px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.title-box {
+    display: flex;
+    align-items: center;
+}
+
+.title-box h3 {
+    white-space: nowrap;
+    margin-left: 10px;
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.text-clr-cng {
+    color: #FF5400
+}
+
+.logo {
+    width: 20%;
+    height: 50%;
+}
+
+nav a {
+    color: #424247;
+    text-align: center;
+    font-size: 1.125rem;
+}
+
+/* First Banner section styles */
+
+.first-banner {
+    background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 105px 200px;
+}
+
+.first-banner>h1 {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.first-banner>p {
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.first-banner .inputs {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin: 0 auto;
+    display: inline-flex;
+    align-items: center;
+
+}
+
+.first-banner .input {
+    padding: 16px 16px;
+    border: 0;
+    border-radius: 8px;
+    margin: 16px 24px;
+}
+
+.btn-primary {
+    width: 174px;
+    height: 48px;
+    border: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    margin-right: 16px;
+    color: #FFF;
+    text-align: center;
+    font-weight: 700;
+}
