@@ -316,6 +316,7 @@ font-weight: 800;
     margin-bottom: 50px;
     background-repeat: no-repeat;
     background-size: 100%;
+    
 }
 
 .deal-text p {
@@ -458,7 +459,7 @@ font-weight: 800;
 
     /* choose your destination section responsive */
 
-    .choose-your-destination h2 {
+    .title-styled ,.choose-your-destination h2 {
         color: #131318;
         text-align: center;
         font-size: 1.25rem;
@@ -501,12 +502,40 @@ font-weight: 800;
         margin: 15px auto;
     }
 
-    .card p {}
-
     .card img {
         max-width: 48px;
         max-height: 48px;
     }
 
+    /* deals and offers styles section RESPONSIVE*/
+
+    .deal{
+        background-position: center;
+        background-size: cover;
+        border-radius: 8px;
+        
+    }
+
+    .deals-discounts h2{
+        text-align: center;
+    }
+    .deals-discounts h2 , .deal-title {
+        color: #131318;
+        font-size: 1.25rem;
+    }
+
+    .deal-nav{
+        flex-direction: column;
+    }
+    .deal-nav p{
+        margin: 5px auto;
+        padding-top: 10px;
+    }
+
+
+    .deal-text{
+        margin: 120px 16px 66px 16px;
+        padding: 20px 10px;    
+    }
 
 }
