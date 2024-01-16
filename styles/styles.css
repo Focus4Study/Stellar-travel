@@ -20,6 +20,16 @@ body {
 
 }
 
+.primary-text {
+    color: rgba(19, 19, 24, 0.70);
+}
+
+.title-styled {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
 /* Header styles */
 
 nav {
@@ -125,8 +135,10 @@ nav a {
 
 .popular-tours {
     margin-top: 100px;
+    margin-bottom: 100px;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 50px;
 
 }
@@ -138,9 +150,6 @@ nav a {
 }
 
 .text-description>h2 {
-    color: #131318;
-    font-size: 2.5rem;
-    font-weight: 800;
     text-align: left;
 }
 
@@ -148,16 +157,84 @@ nav a {
 li {
     text-align: center;
     color: rgba(19, 19, 24, 0.70);
-    font-size: 0.875rem;
     padding-top: 20px;
     text-align: left;
 }
 
 .text-description>button {
-    margin-top: 35px;
+    margin-top: 30px;
+}
+
+/* choose-your-destination section styles */
+
+.choose-your-destination h2,
+p {
+    max-width: 640px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+/* Locations style section */
+
+.row-1,
+.row-2,
+.row-3 {
+    display: flex;
+    gap: 25px;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    justify-content: center;
+
+}
+
+.box{
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 24px;
+}
+
+.Maldives {
+    background-image: url(../Images/Rectangle\ 5.png);
+    padding: 132px 227px;
+}
+
+.Indonesia {
+    background-image: url(../Images/Rectangle\ 8.png); 
+    padding: 132px 227px; 
+}
+
+.Srilanka {
+background-image: url(../Images/Rectangle\ 6.png);
+padding: 125px 130px;
+}
+.America {
+    background-image: url(../Images/Rectangle\ 7.png);
+padding: 125px 137px;
+}
+
+.Kashmir {
+    background-image: url(../Images/Rectangle\ 9.png);
+    padding: 125px 80px;
+}
+
+.Bangladesh{
+    background-image: url(../Images/Rectangle\ 11.png);
+    padding: 132px 155px;
+}
+.Bandarban {
+    background-image: url(../Images/Rectangle\ 10.png);
+    padding: 132px 260px;
 }
 
 
+
+
+/* Responsive styles */
+/* Responsive styles */
+/* Responsive styles */
+/* Responsive styles */
 /* Responsive styles */
 /* Mobile */
 @media screen and (max-width: 576px) {
@@ -220,6 +297,10 @@ li {
         font-size: 1.25rem;
     }
 
+    .text-description>p {
+        font-size: 0.875rem;
+    }
+
     .text-description {
         max-width: 350px;
         margin: 0px auto;
@@ -227,7 +308,7 @@ li {
     }
 
     .img-mountain {
-        margin:0 20px;
+        margin: 0 20px;
         max-width: 335px;
         max-height: 342px;
     }
