@@ -189,9 +189,9 @@ p {
 
 }
 
-.box{
+.box {
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100%;
     margin-bottom: 24px;
 }
 
@@ -201,17 +201,18 @@ p {
 }
 
 .Indonesia {
-    background-image: url(../Images/Rectangle\ 8.png); 
-    padding: 132px 227px; 
+    background-image: url(../Images/Rectangle\ 8.png);
+    padding: 132px 227px;
 }
 
 .Srilanka {
-background-image: url(../Images/Rectangle\ 6.png);
-padding: 125px 130px;
+    background-image: url(../Images/Rectangle\ 6.png);
+    padding: 125px 130px;
 }
+
 .America {
     background-image: url(../Images/Rectangle\ 7.png);
-padding: 125px 137px;
+    padding: 125px 137px;
 }
 
 .Kashmir {
@@ -219,10 +220,11 @@ padding: 125px 137px;
     padding: 125px 80px;
 }
 
-.Bangladesh{
+.Bangladesh {
     background-image: url(../Images/Rectangle\ 11.png);
     padding: 132px 155px;
 }
+
 .Bandarban {
     background-image: url(../Images/Rectangle\ 10.png);
     padding: 132px 260px;
@@ -312,5 +314,36 @@ padding: 125px 137px;
         max-width: 335px;
         max-height: 342px;
     }
+
+    /* choose your destination section responsive */
+
+    .choose-your-destination h2 {
+        color: #131318;
+        text-align: center;
+        font-size: 1.25rem;
+    }
+
+    .choose-your-destination h2,
+    p {
+        max-width: 300px;
+    }
+
+    .row-1,
+    .row-2,
+    .row-3 {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .box {
+        padding: 75px 100px;
+        background-size: 330px 170px;
+        background-position: center;
+        margin: 0px;
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 16px; 
+    }
+
 
 }
