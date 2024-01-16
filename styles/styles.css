@@ -6,6 +6,20 @@ body {
     font-family: 'Mulish', sans-serif;
 }
 
+.btn-primary {
+    width: 174px;
+    height: 48px;
+    font-size: 1.25rem;
+    border: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    margin-right: 16px;
+    color: #FFF;
+    text-align: center;
+    font-weight: 800;
+
+}
+
 /* Header styles */
 
 nav {
@@ -100,14 +114,38 @@ nav a {
     margin: 16px 24px;
 }
 
-.btn-primary {
-    width: 174px;
-    height: 48px;
-    border: 0;
-    border-radius: 8px;
-    background: #FF5400;
-    margin-right: 16px;
-    color: #FFF;
-    text-align: center;
-    font-weight: 700;
+
+.first-banner .btn-primary {
+    font-weight: 700px;
+    font-size: 1rem;
+}
+
+/* popular-tours section styles */
+
+.popular-tours {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.text-description{
+    
+    max-width: 580px;
+}
+
+.text-description > h2 {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.text-description > p , li{
+    text-align: left;
+    color: rgba(19, 19, 24, 0.70);
+    padding-top: 20px;
+}
+
+.text-description > button {
+    margin-top: 35px;
 }
