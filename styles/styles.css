@@ -230,8 +230,56 @@ p {
     padding: 132px 260px;
 }
 
+/* memories-section styles */
 
-/* why choose us section */
+.memories-section{
+    padding-bottom: 50px;
+    background-color: rgba(251, 180, 99, 0.205);
+    position: relative;
+}
+
+.memories-section  p{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.memories-section h2{
+    padding-top: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-memories-container {
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    justify-content: center;
+    gap: 60px;
+}
+
+
+.box-memory img{
+    max-width: max-content;
+    max-height: 300px;
+    padding: 40px 20px 70px;
+    background-color: #FFF;
+    border-radius: 16px;
+}
+
+
+.women-town{
+    margin: auto;
+    max-width: fit-content;
+    z-index: 1;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    right: 30%;
+
+}
+
+
+/* why choose us section styles */
 
 .why-choose-us-description {
     text-align: center;
@@ -544,6 +592,10 @@ hr {
 /* Mobile */
 @media screen and (max-width: 576px) {
 
+
+    hr{
+        max-width: 100%;
+    }
     nav {
         margin-left: -15px;
         text-align: left;
@@ -658,6 +710,28 @@ hr {
         font-weight: 700;
         margin-bottom: 16px;
     }
+
+/* memories section responsive */
+
+.box-memories-container{
+    grid-template-columns: repeat(2, 100px);
+    gap: 50px;
+}
+
+.box-memory img{
+    max-width: 100px;
+    max-height: 66px;
+    padding: 8px 5px 15px;
+    background-color: #FFF;
+    border-radius: 8px;
+}
+
+.women-town{
+    top: 65%;
+    left: 30%;
+    right: 30%;
+
+}
 
     /* why choose us section responsive */
 
